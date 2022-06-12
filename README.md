@@ -1,4 +1,4 @@
-# (Prabhawati VidyaPeeth)[https://prabhawatividyapeeth.in/]
+# [Prabhawati VidyaPeeth](https://prabhawatividyapeeth.in/)
 
-# (प्रभावती विद्यापीठ)[https://prabhawatividyapeeth.in/]
+# [प्रभावती विद्यापीठ](https://prabhawatividyapeeth.in/)
 
