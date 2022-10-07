@@ -43,18 +43,21 @@ body {
 }
 
 .navbar {
-    background-color: whitesmoke;
+    height: 160px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(204, 198, 198);
     z-index: 5;
     border: none;
-    border-top: calc(var(--f0)*1) solid maroon;
+   
 height: 90px;
 
     
 }
 .nav-item :hover{
-    background-color: #3b3b3b;
+    background-color: maroon;
     border-radius: 33px;
-    color: white!important;
+    color: rgb(204, 197, 197);
 }
 
 .title {
@@ -76,9 +79,10 @@ height: 90px;
 }
 
 .contact {
-    text-align: left;
+    text-align: right;
     font-weight: 500;
     font-size: calc(var(--f0)*1);
+    
 }
 
 .contact a i {
@@ -86,7 +90,7 @@ height: 90px;
 }
 
 .contact > a{
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .nav-item {
