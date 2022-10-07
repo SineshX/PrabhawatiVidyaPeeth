@@ -7,7 +7,7 @@
 }
 
 ::-webkit-scrollbar {
-    width: 3px;
+    width: 10px;
     height: 3px;
     border-left: 0;
     background: rgba(0, 0, 0, 0.1);
@@ -110,7 +110,15 @@ body {
     font-weight: bold;
 }
 
+
 /* .Gallery-img {
+
+.extra-activities-card{
+    border:2px solid #f0f0f0;
+    cursor: pointer;
+}
+/* .gallary-img {
+
     object-fit: contain;
     height: calc(var(--f0)*40);
 } */
