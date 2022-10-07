@@ -43,28 +43,18 @@ body {
 }
 
 .navbar {
-    height: 160px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background-color: rgb(204, 198, 198);
+    background-color: whitesmoke;
     z-index: 5;
     border: none;
-   
+    border-top: calc(var(--f0)*1) solid maroon;
 height: 90px;
 
     
 }
 .nav-item :hover{
-    background-color: maroon;
+    background-color: #3b3b3b;
     border-radius: 33px;
-    color: rgb(204, 197, 197);
-}
-.hello :hover{
-    background-color: black;
-    border-radius: 811px;
-   
-    width: 70px;
-    height: 20px;
+    color: white!important;
 }
 
 .title {
@@ -86,10 +76,9 @@ height: 90px;
 }
 
 .contact {
-    text-align: right;
+    text-align: left;
     font-weight: 500;
     font-size: calc(var(--f0)*1);
-    
 }
 
 .contact a i {
@@ -97,7 +86,7 @@ height: 90px;
 }
 
 .contact > a{
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 .nav-item {
@@ -123,6 +112,7 @@ height: 90px;
     transform: scaleX(1);
     transform-origin: bottom;
 }
+
 
 .slider-img {
     /* z-index: -1; */
