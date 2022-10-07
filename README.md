@@ -1,5 +1,11 @@
 # [Prabhawati VidyaPeeth](https://prabhawatividyapeeth.in/)
 
+<div align="center">
+    <img alt="Desktop" title="#Desktop" src="./images/preview.jpg" width="680px" />
+</div>
+
+<br />
+
 # [प्रभावती विद्यापीठ](https://prabhawatividyapeeth.in/)
 
 
