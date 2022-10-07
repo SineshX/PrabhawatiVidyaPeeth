@@ -13,3 +13,12 @@
 😇  Even if you can improve the documentation or fix typo, you are welcome.
 
 Thank You!
+
+Happy Open Sourcing :)
+
+
+
+# About the website :
+## It is a High School website, live @ [PrabhawatiVidyaPeeth.in](https://prabhawatividyapeeth.in/)
+### Currently it is a static website , further we will improve :).
+
