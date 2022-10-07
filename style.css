@@ -81,6 +81,30 @@ height: 90px;
     font-size: calc(var(--f0)*1);
 }
 
+.nav-item {
+    display: inline-block;
+    position: relative;
+    color: black;
+  }
+  
+  .nav-item:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    transform-origin: bottom right;
+    transition: transform 0.2s ease-out;
+  }
+  
+  .nav-item:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom;
+  }
+
 
 .slider-img {
     /* z-index: -1; */
@@ -88,23 +112,27 @@ height: 90px;
     height: calc(var(--f0)*40);
 }
 
-.gallary-title {
+.Gallery-title {
     /* padding: calc(var(--f0)*2); */
     font-size: calc(var(--f0)*1);
     text-align: center;
     font-weight: bold;
 }
 
+
+/* .Gallery-img {
+
 .extra-activities-card{
     border:2px solid #f0f0f0;
     cursor: pointer;
 }
 /* .gallary-img {
+
     object-fit: contain;
     height: calc(var(--f0)*40);
 } */
 
-.gallary-detail {
+.Gallery-detail {
     overflow-y: auto;
     padding: 10px;
 }
@@ -217,11 +245,31 @@ height: 90px;
     transition: 0.3s
 }
 
-#footer .footer-top .social-links a:hover {
+#footer .footer-top .social-links .fa-facebook:hover {
+    background: #3B5998;
+    color: white;
+}
+
+  #footer .footer-top .social-links .fa-twitter:hover {
+    background: #55ACEE;
+    color: white;
+}
+
+  #footer .footer-top .social-links .fa-instagram:hover {
+    background:  #C13584;
+    color: white;
+}
+
+  #footer .footer-top .social-links .fa-youtube:hover {
+    background: #bb0000;
+    color: white;
+}
+
+/* #footer .footer-top .social-links a:hover {
     background: #e96b56;
     color: #fff;
     text-decoration: none
-}
+} */
 
 #footer .footer-top h4 {
     font-size: 16px;
@@ -266,9 +314,9 @@ height: 90px;
     line-height: 1
 }
 
-#footer .footer-top .footer-links ul a:hover {
+/* #footer .footer-top .footer-links ul a:hover {
     color: #e96b56
-}
+} */
 
 #footer .footer-top .footer-contact {
     margin-bottom: 30px
@@ -277,6 +325,7 @@ height: 90px;
 #footer .footer-top .footer-contact p {
     line-height: 26px
 }
+
 
 #footer .copyright {
     text-align: center;
