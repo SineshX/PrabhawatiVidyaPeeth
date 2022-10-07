@@ -56,6 +56,13 @@ height: 90px;
     border-radius: 33px;
     color: white!important;
 }
+.hello :hover{
+    background-color: black;
+    border-radius: 811px;
+   
+    width: 70px;
+    height: 20px;
+}
 
 .title {
     padding-left: 1rem;
@@ -112,7 +119,6 @@ height: 90px;
     transform: scaleX(1);
     transform-origin: bottom;
 }
-
 
 .slider-img {
     /* z-index: -1; */
