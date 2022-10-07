@@ -47,6 +47,14 @@ body {
     z-index: 5;
     border: none;
     border-top: calc(var(--f0)*1) solid maroon;
+height: 90px;
+
+    
+}
+.nav-item :hover{
+    background-color: #3b3b3b;
+    border-radius: 33px;
+    color: white!important;
 }
 
 .title {
