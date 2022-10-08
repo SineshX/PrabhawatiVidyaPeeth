@@ -47,14 +47,17 @@ body {
     z-index: 5;
     border: none;
     border-top: calc(var(--f0)*1) solid maroon;
-height: 90px;
-
-    
+    height: 100px;
 }
-.nav-item :hover{
-    background-color: #3b3b3b;
-    border-radius: 33px;
-    color: white!important;
+
+.nav-item {
+    font-weight: 500;
+    margin-left: calc(var(--f0)*1.2);
+    font-size: calc(var(--f0)*1.3);
+    color: black;
+}
+.nav-item >a{
+    transition-duration: 500ms;
 }
 
 .title {
@@ -68,17 +71,11 @@ height: 90px;
     margin-left: calc(var(--f0)*1);
 }
 
-.nav-item {
-    font-weight: 500;
-    margin-left: calc(var(--f0)*1.2);
-    font-size: calc(var(--f0)*1.3);
-    color: black;
-}
-
 .contact {
     text-align: left;
     font-weight: 500;
     font-size: calc(var(--f0)*1);
+    width: 30%;
 }
 
 .contact a i {
@@ -87,6 +84,11 @@ height: 90px;
 
 .contact > a{
     text-decoration: underline;
+    margin: 2%;
+}
+
+.contact >p{
+    margin: 2%;
 }
 
 .nav-item {
