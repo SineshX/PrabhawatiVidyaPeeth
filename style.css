@@ -29,7 +29,19 @@ body {
     overflow-x: hidden;
 
 }
+.principal-text{
+    background-color: orange!important;
+ 
+    border: #ec7f6d;
+    border-radius: 33px;
 
+}
+.principal {
+border:10px solid orange;
+box-shadow: 0 0 5px orange;
+
+padding: 15px;
+}
 
 .dividerb {
     text-align: center;
@@ -119,6 +131,7 @@ height: 90px;
     transform: scaleX(1);
     transform-origin: bottom;
 }
+
 
 .slider-img {
     /* z-index: -1; */
