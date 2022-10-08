@@ -46,10 +46,14 @@ body {
   height: 90px;
 }
 
-.nav-item :hover {
+/* .nav-item :hover {
   background-color: #3b3b3b;
   border-radius: 33px;
   color: white !important;
+} */
+
+.nav-link:active{
+  color: #000 !important;
 }
 
 .title {
@@ -63,6 +67,8 @@ body {
 }
 
 .nav-item {
+  display: inline-block;
+  position: relative;
   font-weight: 500;
   margin-left: calc(var(--f0) * 1.2);
   font-size: calc(var(--f0) * 1.3);
@@ -81,12 +87,6 @@ body {
 
 .contact > a {
   text-decoration: underline;
-}
-
-.nav-item {
-  display: inline-block;
-  position: relative;
-  color: black;
 }
 
 .nav-item:after {
