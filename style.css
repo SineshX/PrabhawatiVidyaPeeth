@@ -374,14 +374,14 @@ body {
 .carousel-caption h5 {
   color: #fff;
   margin-bottom: 10px;
-  font-size: 42px;
+  font-size: 3.125rem !important;
   font-weight: 700;
   width: 80%;
   margin: 0px auto 30px auto;
 }
 
 .carousel-caption p {
-  font-size: 20px;
+  font-size: 1.125rem !important;
   width: 80%;
   -webkit-animation-delay: 0.4s;
   animation-delay: 0.4s;
