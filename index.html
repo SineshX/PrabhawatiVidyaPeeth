@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -25,9 +26,16 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <title>Prabhawati Vidhyapeeth</title>
+
+  
 </head>
 
-<body style="background-image: linear-gradient(60deg, #f0f0f0 80%, #fff 20%);">
+<body onload="preloader()">
+
+  <!-- Pre-loader -->
+  <div id="loading">
+
+  </div>
 
   <!-- Navbar -->
 
@@ -59,10 +67,11 @@
             <a class="nav-link" href="#admission">Admissions</a>
           </li>
           
+
           <li class="nav-item">
             <a class="nav-link" href="#footer">Contact Us</a>
           </li>
-          
+
           <!-- <li class="nav-item">
             <a class="nav-link" href="#">Campus</a>
           </li> -->
@@ -73,11 +82,10 @@
           
           <hr/>
         </ul>
-        <div class="contact" >
+        <div class="contact">
           <a class="me-2 num" href="tel:+919452746680"> <i class="bi bi-telephone-fill"></i>+91-9452746680</a>
           <br />
           <a href="mailto:prabhawati9452@gmail.com"> <i class="bi bi-envelope-fill"></i> prabhawati9452@gmail.com</a>
-          <p style="background-color: maroon;border: 2px solid black;color: white;" class="px-1">Mon - Sat : 9:00 AM - 5:00 PM</p>
         </div>
       </div>
 
@@ -95,27 +103,24 @@
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img class="img-fluid w-100 h-100 overflow-hidden" src="images\image-5.jpeg"
-          class="d-block w-100" alt="...">
+        <img class="img-fluid w-100 h-100 overflow-hidden" src="images\image-5.jpeg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-block">
           <h5>Prabhawati VidyaPeeth</h5>
-          <p>We are serving the society for better Tomorrow </p>
+          <p>We are serving the society for better tomorrow </p>
         </div>
       </div>
       <div class="carousel-item">
-        <img class="img-fluid w-100 h-100 overflow-hidden" src="images\image-3.jpeg"
-          class="d-block w-100" alt="...">
+        <img class="img-fluid w-100 h-100 overflow-hidden" src="images\image-3.jpeg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-block">
           <h5>Prabhawati VidyaPeeth</h5>
           <p>We are serving the society for better tomorrow</p>
         </div>
       </div>
       <div class="carousel-item">
-        <img class="img-fluid w-100 h-100 overflow-hidden" src="images\image-2.jpeg"
-          class="d-block w-100" alt="...">
+        <img class="img-fluid w-100 h-100 overflow-hidden" src="images\image-2.jpeg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-block">
           <h5>Prabhawati VidyaPeeth</h5>
-          <p>We are serving the society for better Tomorrow</p>
+          <p>We are serving the society for better tomorrow</p>
         </div>
       </div>
     </div>
@@ -137,15 +142,16 @@
       <div class="card my-3 border-none shadow-sm p-4">
         <div class="row g-0">
 
-          <div class="col-md-8 d-flex justify-center align-items-center">
+          <div class="col-md-8 d-flex justify-center align-items-center card principal-text">
             <div class="card-body text-center">
-              <h5 class="card-title h1">PRINCIPAL DESK</h5>
-              <p class="card-text h5"><small class="text-muted"><i>"A nation is great not because few people are great,
+              
+              <h2 class="card-title h1 text-white">PRINCIPAL DESK</h2>
+              <p class="card-text h5"><small class="text-muted "><i>"A nation is great not because few people are great,
                     but
                     because everyone in the
                     nation is great."</i> - Shri APJ Abdul Kalam.</small></p>
               <br>
-              <p class="card-text h5">I believe school plays a pivotal role in making people great, who in turn make a
+              <p class="ptext">I believe school plays a pivotal role in making people great, who in turn make a
                 nation great. Schools educate and educate. They inculcate values that give meaning and strength to a
                 person’s character by occupying a central place in his life. They embellish one’s behavior with good
                 qualities and prompt him to become, as said Albert Einstein,
@@ -154,11 +160,11 @@
             </div>
           </div>
           <div class="col-md-4 d-flex justify-center">
-            <img src="images\principal-removebg-preview.png" class="img-fluid rounded-start" alt="...">
+            <img src="images\principal-removebg-preview.png" class="img-fluid principal" alt="...">
           </div>
         </div>
-      </div>
     </div>
+  </div>
     <hr class="dividerb " style="border-top-right-radius: 200px;">
 
   </section>
@@ -299,6 +305,64 @@
 
 
   <!-- feedback + map -->
+  <!-- feedback start-
+  <div class="bg-red">
+    <div class="container">
+        <div class="text-center">
+            <p class="Feedback">Feedback</p>
+            <p class="give">Give us your feedback</p>
+        </div>
+        <form>
+            <div class="row">
+                <div class="col">
+                    <div class="margin">
+                        <input type="text" class="form-control" placeholder="* Name">
+                    </div>
+                    <div class="margin">
+                        <input type="email" class="form-control" placeholder="* Email">
+                    </div>
+                    <input type="text" class="form-control" placeholder="* Phone">
+                </div>
+                <div class="col">
+                    <textarea class="form-control" rows="8" placeholder="* Your message"></textarea>
+                </div>
+            </div>
+            <div class="text-center">
+                <button type="submit" class="text-uppercase">Submit</button>
+            </div>
+        </form>
+    </div>
+</div>
+feedback end-->
+
+<!--feedback 2.0-->
+<div id="feedback-main">
+  <div id="feedback-div">
+    <form action="contact.php" method="post" class="form" id="feedback-form1" name="form1" enctype="multipart/form-data">
+
+      <p class="name">
+        <input name="name" type="name" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" required placeholder="Name" id="feedback-name" />
+      </p>
+
+      <p class="email">
+        <input name="email" type="email" class="validate[required,custom[email]] feedback-input" id="feedback-email" placeholder="Email" required />
+      </p>
+
+      <p class="text">
+        <textarea name="comment" type="comment" class="validate[required,length[6,300]] feedback-input" id="feedback-comment" required placeholder="Write a message for us"></textarea>
+      </p>
+
+      <div class="feedback-submit">
+        <input type="submit" value="SEND" id="feedback-button-blue" />
+        <div class="feedback-ease"></div>
+      </div>
+    </form>
+  </div>
+</div>
+
+<button id="popup" class="feedback-button" onclick="toggle_visibility()">Feedback</button>
+<script src="feedback.js"></script>
+
   <section class="text-gray-600 body-font relative">
     <!-- <p class="h2">Reach Us</p> -->
 
@@ -357,7 +421,8 @@
             <p> Rajauli, Sahatwar, Uttar Pradesh, India <br><strong>Pin Code :
               </strong>277211<br><strong>Timings : </strong> Mon - Sat : 9 AM to 5 PM<br><strong>Phone:</strong>
               9452746680<br>
-              <strong>Email:</strong><a href="#">prabhawati9452@gmail.com</a> <br> </p>
+              <strong>Email:</strong><a href="#">prabhawati9452@gmail.com</a> <br>
+            </p>
           </div>
           <div class="col-lg-4 col-md-4 footer-info">
             <h3 class="title">Prabhawati VidyaPeeth</h3>
@@ -374,13 +439,13 @@
     </div>
     </h3>
     <p class="">
-      <div class="container py-2">
-        <div class="copyright"> &copy; 2022 <strong><a href="https://prabhawatividyapeeth.in/">
-              PrabhawatiVidyaPeeth.in</strong>
-          </a> . All Rights Reserved </div>
-        <div class="credits"> Made with 💖 by<a href="#">Team PrabhawatiVidyaPeeth</a> </div>
+    <div class="container py-2">
+      <div class="copyright"> &copy; 2022 <strong><a href="https://prabhawatividyapeeth.in/">
+            PrabhawatiVidyaPeeth.in</strong>
+        </a> . All Rights Reserved </div>
+      <div class="credits"> Made with 💖 by<a href="#">Team PrabhawatiVidyaPeeth</a> </div>
 
-      </div>
+    </div>
   </footer>
   <!-- https://www.facebook.com/pvpsahatwar -->
 
@@ -388,6 +453,8 @@
 
 <!--  scripts -->
 <!-- <script src="https://cdn.tailwindcss.com"></script>
+
+  
 
 <script>
     tailwind.config = {
@@ -400,6 +467,15 @@
         },
     };
 </script> -->
+
+<!-- Preloader Function -->
+<script>
+  var preload = document.getElementById("loading");
+
+  function preloader(){
+    preload.style.display = "none";
+  }
+</script>
 
 <!-- closing -->
 <!-- <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script> -->
