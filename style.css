@@ -30,15 +30,18 @@ body {
 
 }
 .principal-text{
-    background-color: orange!important;
+    background-color: maroon!important;
  
     border: #ec7f6d;
     border-radius: 33px;
 
 }
+.ptext{
+    color: white;
+}
 .principal {
-border:10px solid orange;
-box-shadow: 0 0 5px orange;
+border:10px solid maroon;
+box-shadow: 0 0 5px maroon;
 
 padding: 15px;
 }
@@ -92,6 +95,9 @@ height: 90px;
     margin-left: calc(var(--f0)*1.2);
     font-size: calc(var(--f0)*1.3);
     color: black;
+}
+.ss{
+    color: white;
 }
 
 .contact {
