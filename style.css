@@ -39,6 +39,7 @@ body {
   background-image: linear-gradient(60deg, #f0f0f0 80%, #fff 20%);
 }
 
+
 .dividerb {
   text-align: center;
   width: calc(var(--f0) * 45);
@@ -84,6 +85,9 @@ body {
   font-size: calc(var(--f0) * 1.3);
   color: black;
 }
+.ss{
+    color: white;
+}
 
 .contact {
   text-align: left;
@@ -116,6 +120,7 @@ body {
   transform: scaleX(1);
   transform-origin: bottom;
 }
+
 
 .slider-img {
   /* z-index: -1; */
@@ -201,8 +206,6 @@ html {
   position: absolute;
   margin-top: 30px;
   margin-left: 30px;
-  -moz-border-radius: 7px;
-  -webkit-border-radius: 7px;
 }
 
 .feedback-input {
