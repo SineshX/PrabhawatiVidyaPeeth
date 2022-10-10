@@ -26,6 +26,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <title>Prabhawati Vidhyapeeth</title>
+
+  
 </head>
 
 <body style="background-image: linear-gradient(60deg, #f0f0f0 80%, #fff 20%);">
@@ -295,6 +297,64 @@
 
 
   <!-- feedback + map -->
+  <!-- feedback start-
+  <div class="bg-red">
+    <div class="container">
+        <div class="text-center">
+            <p class="Feedback">Feedback</p>
+            <p class="give">Give us your feedback</p>
+        </div>
+        <form>
+            <div class="row">
+                <div class="col">
+                    <div class="margin">
+                        <input type="text" class="form-control" placeholder="* Name">
+                    </div>
+                    <div class="margin">
+                        <input type="email" class="form-control" placeholder="* Email">
+                    </div>
+                    <input type="text" class="form-control" placeholder="* Phone">
+                </div>
+                <div class="col">
+                    <textarea class="form-control" rows="8" placeholder="* Your message"></textarea>
+                </div>
+            </div>
+            <div class="text-center">
+                <button type="submit" class="text-uppercase">Submit</button>
+            </div>
+        </form>
+    </div>
+</div>
+feedback end-->
+
+<!--feedback 2.0-->
+<div id="feedback-main">
+  <div id="feedback-div">
+    <form action="contact.php" method="post" class="form" id="feedback-form1" name="form1" enctype="multipart/form-data">
+
+      <p class="name">
+        <input name="name" type="name" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" required placeholder="Name" id="feedback-name" />
+      </p>
+
+      <p class="email">
+        <input name="email" type="email" class="validate[required,custom[email]] feedback-input" id="feedback-email" placeholder="Email" required />
+      </p>
+
+      <p class="text">
+        <textarea name="comment" type="comment" class="validate[required,length[6,300]] feedback-input" id="feedback-comment" required placeholder="Write a message for us"></textarea>
+      </p>
+
+      <div class="feedback-submit">
+        <input type="submit" value="SEND" id="feedback-button-blue" />
+        <div class="feedback-ease"></div>
+      </div>
+    </form>
+  </div>
+</div>
+
+<button id="popup" class="feedback-button" onclick="toggle_visibility()">Feedback</button>
+<script src="feedback.js"></script>
+
   <section class="text-gray-600 body-font relative">
     <!-- <p class="h2">Reach Us</p> -->
 
