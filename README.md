@@ -1,5 +1,6 @@
 # [Prabhawati VidyaPeeth](https://prabhawatividyapeeth.in/)
 
+
 ### Welcome to our School Website!
 
 Our mission is to provide our students, staff, and parents with the resources they need to achieve their academic and personal goals.
@@ -10,11 +11,11 @@ We are proud of our strong traditions and values, and we work hard to promote a 
 
 We hope you will visit our website often and find the information you need to support your academic and personal success.
 
+
 <div align="center">
     <img alt="Desktop" title="#Desktop" src="./images/preview.jpg" width="680px" />
 </div>
 
-Explore our school's website and learn more about us. If you have any questions, please feel free to contact us.
 <br />
 
 # [प्रभावती विद्यापीठ](https://prabhawatividyapeeth.in/)
@@ -23,6 +24,7 @@ Explore our school's website and learn more about us. If you have any questions,
 ## Dev Branch : [https://sineshx.com/PrabhawatiVidyaPeeth/](https://prabhawatividyapeeth.in/) 
 
 # How to contribute : 
+
 
 ## Steps to Setup this Repository Locally 💻
 
@@ -70,11 +72,12 @@ Explore our school's website and learn more about us. If you have any questions,
 
 Thank You!
 
-
-
 Happy Open Sourcing :)
 
 ## Thank You for your Amazing Contribution!!
+=======
+Happy Open Sourcing :)
+
 
 # About the website :
 ## It is a High School website, live @ [PrabhawatiVidyaPeeth.in](https://prabhawatividyapeeth.in/)
