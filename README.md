@@ -81,5 +81,18 @@ Happy Open Sourcing :)
 
 # About the website :
 ## It is a High School website, live @ [PrabhawatiVidyaPeeth.in](https://prabhawatividyapeeth.in/)
-### Currently it is a static website , further we will improve :).
+### Currently it is a simnple website , further we will improve :).
 
+
+# TODO
+[] Enable all links from styles.css
+```a{
+    pointer-events: none;
+    /* cursor: default; */
+}```
+[] all more photos 
+[] add map link
+[] add new events 
+[] correct language and translation 
+[] remove disabled-link and make pages for each link :) 
+[]
