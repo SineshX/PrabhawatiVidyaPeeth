@@ -468,6 +468,15 @@ button {
 }
 
 
+.map-title{
+    border-left: 5px solid maroon;
+    padding:  0.25rem;
+    font-weight:500;
+    font-size:calc(var(--f0)*1.2);
+    margin-bottom: 0.25rem;
+}
+
+
 
 @media (max-width: 867.98px) {
 
@@ -537,9 +546,6 @@ button {
         height: 15px;
         background-size: 5px;
     }
-
-
-
 
     .welcome-msg-bg {
         background-color: #073ba9;
