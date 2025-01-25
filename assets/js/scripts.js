@@ -371,3 +371,34 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 });
+
+// Performance monitoring
+window.addEventListener('load', () => {
+  // Navigation Timing API
+  const timing = window.performance.timing;
+  const pageLoadTime = timing.loadEventEnd - timing.navigationStart;
+  console.log(`Page load time: ${pageLoadTime}ms`);
+
+  // Report to analytics if needed
+  if (pageLoadTime > 3000) {
+    // Report slow page load
+    console.warn('Slow page load detected');
+  }
+});
+
+// Lazy loading images
+document.addEventListener('DOMContentLoaded', () => {
+  const images = document.querySelectorAll('img[data-src]');
+  const imageObserver = new IntersectionObserver((entries, observer) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        const img = entry.target;
+        img.src = img.dataset.src;
+        img.removeAttribute('data-src');
+        observer.unobserve(img);
+      }
+    });
+  });
+
+  images.forEach(img => imageObserver.observe(img));
+});
